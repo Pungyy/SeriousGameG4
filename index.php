@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Prolent</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
 
     <!-- Link of all ressources -->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
@@ -17,7 +18,7 @@
 <body>
 
 
-    <nav class="bg-gray px-2 py-2 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav class="bg-gray px-6 py-2 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
 
         <div class="flex flex-wrap justify-between items-center">
 
@@ -26,7 +27,9 @@
             </a>
 
             <div class="flex md:order-2">
-                <button type="button" class="play-btn text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Jouer</button>
+                <a href="#escape">
+                    <button type="button" class="play-btn text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Jouer</button>
+                </a>
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                     <span class="sr-only">Ouvrir le menu</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -76,7 +79,7 @@
         <div class="left-competences-side" data-aos="fade-right">
 
             <div class="competences-title">
-                <h1 class="gradient-text">Compétences Validées :</h1>
+                <h1 class="gradient-text">Compétences Validées</h1>
             </div>
 
             <ul>
@@ -106,14 +109,14 @@
     <section class="card-section " id="team">
 
         <div class="card-section-title" data-aos="zoom-in">
-            <h1 class="gradient-text card-div-title">L'équipe :</h1>
+            <h1 class="gradient-text card-div-title">L'équipe</h1>
         </div>
         
             <div class="container2">
             
                 <div class="slider">
             
-                    <div class="max-w-sm rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-down">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/bryan.jfif" alt="" />
                         </a>
@@ -125,7 +128,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-up">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/mathis.jfif" alt="" />
                         </a>
@@ -137,7 +140,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-down">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/dorian.jfif" alt="" />
                         </a>
@@ -149,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-up">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/ibra.jfif" alt="" />
                         </a>
@@ -161,7 +164,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-down">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/maceo.jpg" alt="" style="width: 100%;"/>
                         </a>
@@ -173,7 +176,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-up">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/nathael.jfif" alt="" />
                         </a>
@@ -185,7 +188,7 @@
                         </div>
                     </div>
 
-                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item">
+                    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md card item" data-aos="flip-down">
                         <a href="#">
                             <img class="rounded-t-lg" src="assets/img/david.jfif" alt="" />
                         </a>
@@ -209,10 +212,10 @@
         <span class="rounded"></span>
     </div>
 
-    <section class="">
+    <section class="" id="escape">
 
     <div class="game-section-title">
-        <h1 class="gradient-text card-div-title">L'Escape Game :</h1>
+        <h1 class="gradient-text card-div-title">L'Escape Game</h1>
     </div>
 
     <div class="module-border-wrap">
@@ -220,7 +223,7 @@
             <div class="loader loader--style3" title="2">
                 <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     width="100px" height="100px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <!-- <path fill="#000" d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
+                    <path fill="#000" d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
                         <animateTransform attributeType="xml"
                         attributeName="transform"
                         type="rotate"
@@ -228,7 +231,7 @@
                         to="360 25 25"
                         dur="0.6s"
                         repeatCount="indefinite"/>
-                        </path> -->
+                        </path>
                 </svg>
             </div>
         </div>
