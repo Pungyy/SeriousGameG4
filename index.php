@@ -51,7 +51,15 @@
 
     </nav>
 
+    <div class="wave-container">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+    </div>
+    
     <section data-aos="fade-up">
+
+   
 
 
         <div class="home-title">
